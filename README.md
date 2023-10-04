@@ -1,6 +1,6 @@
 # @joshuaavalon/fastify-plugin-prisma
 
-[![Version](https://badge.fury.io/js/@joshuaavalon/fastify-plugin-prisma.svg)](https://www.npmjs.com/package/@joshuaavalon/fastify-plugin-prisma)
+[![Version](https://badge.fury.io/js/@joshuaavalon%2Ffastify-plugin-prisma.svg)](https://www.npmjs.com/package/@joshuaavalon/fastify-plugin-prisma)
 [![npm](https://img.shields.io/npm/dt/@joshuaavalon/fastify-plugin-prisma.svg)](https://www.npmjs.com/package/@joshuaavalon/fastify-plugin-prisma)
 [![License](https://img.shields.io/github/license/joshuaavalon/fastify-plugin-prisma)](./LICENSE)
 
