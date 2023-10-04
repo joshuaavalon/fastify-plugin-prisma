@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.2](https://github.com/joshuaavalon/fastify-plugin-prisma/compare/v1.0.1...v1.0.2) (2023-10-04)
+
+
+### Bug Fixes
+
+* update package.json ([89fa9da](https://github.com/joshuaavalon/fastify-plugin-prisma/commit/89fa9dad939ef8a4a3514af3988f487222cccb2f))
+
 ## [1.0.1](https://github.com/joshuaavalon/fastify-plugin-prisma/compare/v1.0.0...v1.0.1) (2023-10-04)
 
 
