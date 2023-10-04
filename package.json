@@ -1,0 +1,44 @@
+{
+  "name": "@joshuaavalon/fastify-plugin-prisma",
+  "version": "1.0.0",
+  "description": "Prisma plugin for fastify",
+  "type": "module",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "tsc",
+    "lint": "eslint src",
+    "db:generate": "prisma generate"
+  },
+  "keywords": [
+    "fastify",
+    "fastify-plugin",
+    "prisma"
+  ],
+  "files": [
+    "dist"
+  ],
+  "author": "Joshua Avalon",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "@types/node": "20.8.2",
+    "@typescript-eslint/eslint-plugin": "6.7.4",
+    "@typescript-eslint/parser": "6.7.4",
+    "eslint": "8.50.0",
+    "eslint-config-prettier": "9.0.0",
+    "eslint-plugin-prettier": "5.0.0",
+    "globals": "13.22.0",
+    "rimraf": "5.0.5",
+    "typescript": "5.2.2"
+  },
+  "peerDependencies": {
+    "@prisma/client": "^5.3.1",
+    "fastify": "^4.23.2",
+    "prisma": "^5.3.1"
+  },
+  "dependencies": {
+    "fastify-plugin": "^4.5.1"
+  }
+}
