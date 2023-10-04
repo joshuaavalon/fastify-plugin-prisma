@@ -2,7 +2,7 @@
   "name": "@joshuaavalon/fastify-plugin-prisma",
   "version": "1.0.1",
   "description": "Prisma plugin for fastify",
-  "module": "lib/index.js",
+  "module": "dist/index.js",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -15,8 +15,8 @@
   },
   "exports": {
     ".": {
-      "types": "./lib/index.d.ts",
-      "import": "./lib/index.js"
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
     }
   },
   "homepage": "https://github.com/joshuaavalon/fastify-plugin-prisma#readme",
