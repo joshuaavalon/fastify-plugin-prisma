@@ -15,6 +15,8 @@ npm i @joshuaavalon/fastify-plugin-prisma
 ```typescript
 import prismaPlugin from "@joshuaavalon/fastify-plugin-prisma";
 await fastify.register(prismaPlugin, opts);
+
+const user = await fastify.db.user.findFirst();
 ```
 
 ## Options
