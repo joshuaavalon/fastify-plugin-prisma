@@ -2,6 +2,7 @@
   "name": "@joshuaavalon/fastify-plugin-prisma",
   "version": "1.0.0",
   "description": "Prisma plugin for fastify",
+  "module": "lib/index.js",
   "type": "module",
   "publishConfig": {
     "access": "public"
@@ -11,6 +12,20 @@
     "build": "tsc",
     "lint": "eslint src",
     "db:generate": "prisma generate"
+  },
+  "exports": {
+    ".": {
+      "types": "./lib/index.d.ts",
+      "import": "./lib/index.js"
+    }
+  },
+  "homepage": "https://github.com/joshuaavalon/fastify-plugin-prisma#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joshuaavalon/fastify-plugin-prisma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/joshuaavalon/fastify-plugin-prisma/issues"
   },
   "keywords": [
     "fastify",
